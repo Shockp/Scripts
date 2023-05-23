@@ -1,5 +1,3 @@
-#Create a file called index.php in /tmp/tmpserver/index.php
-
 <?php
 if (isset($_GET['c'])) {
     $list = explode(";", $_GET['c']);
