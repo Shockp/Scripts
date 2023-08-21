@@ -1,4 +1,4 @@
-python3 -c 'import pty; pty.spawn("/bin/bash");'
+python3 -c 'import pty; pty.spawn("/bin/bash");' # You can try this if python doesn't work --> script /dev/null -qc /bin/bash
 CTRL + Z
 stty raw -echo; fg
 reset xterm
